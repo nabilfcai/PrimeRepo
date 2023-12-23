@@ -18,3 +18,13 @@ if is_prime(number_to_check):
     print(f"{number_to_check} is a prime number.")
 else:
     print(f"{number_to_check} is not a prime number.")
+
+def is_even(number: int) -> bool:
+    return number % 2 == 0
+
+ # Example usage:
+number_to_check = 8
+if is_even(number_to_check):
+    print(f"{number_to_check} is a even number.")
+else:
+    print(f"{number_to_check} is odd number.")
